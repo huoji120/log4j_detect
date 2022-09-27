@@ -39,3 +39,13 @@
 *.iobj
 *.log
 *.ipdb
+*.ilk
+*.db-shm
+*.db-wal
+*.opendb
+
+/test
+test/CVE-2021-44228-Apache-Log4j-Rce/log4j-rce.iml
+test/test/.idea/vcs.xml
+test/test/out/production/test/Main.class
+test/test/src/Main.java

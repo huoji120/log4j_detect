@@ -9,7 +9,7 @@ public class Main {
         String name = ManagementFactory.getRuntimeMXBean().getName();
         // get pid
         String pid = name.split("@")[0];
-        System.out.println("Pid is:" + String.format("%02X", Integer.parseInt(pid)));
+        System.out.println("Pid is:" +  pid);
 
         System.out.println("Hello world!");
         Scanner userInput = new Scanner(System.in);
